@@ -1,0 +1,6 @@
+# Firmware Dependencies
+
+This project uses only built‑in Arduino libraries:
+
+- Arduino core (digitalRead, analogRead, tone, Serial)
+- No external libraries required

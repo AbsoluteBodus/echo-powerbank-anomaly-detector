@@ -1,0 +1,10 @@
+# Changelog
+
+## v1.0 — Initial Release (2026‑07‑29)
+- Added README.md
+- Added MIT License
+- Added formatted firmware (echo_detector.ino)
+- Added libraries.txt
+- Added bill-of-materials.md
+- Added wiring 
+- Repository structure prepared

@@ -1,0 +1,45 @@
+Diagram will be added later.
+
+Arduino Nano → RCWL‑0516
+D9 ← OUT
+
+5V ← VIN
+
+GND ← GND
+
+Arduino Nano → RGB LED
+(Specify your LED type: common cathode or common anode)
+
+D8 → Red (through 220–330 Ω resistor)
+
+D7 → Green (through 220–330 Ω resistor)
+
+D6 → Blue (through 220–330 Ω resistor)
+
+GND → LED cathode (if common cathode)
+
+5V → LED anode (if common anode)
+
+Arduino Nano → Buzzer
+D2 → +
+
+GND → –
+
+Arduino Nano → Mode Button
+D10 → one side of button
+
+GND → other side
+
+Arduino Nano → Battery Voltage Divider
+Battery + → R1 → A5
+
+A5 → R2 → GND
+
+R1 = 100kΩ
+
+R2 = 100kΩ
+
+Powerbank Module → Arduino
+5V OUT → Arduino 5V
+
+GND → Arduino GND

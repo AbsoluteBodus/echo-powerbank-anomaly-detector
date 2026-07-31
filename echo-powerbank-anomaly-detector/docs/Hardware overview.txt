@@ -1,0 +1,77 @@
+
+---
+
+## 🛠 Hardware Overview
+
+### Components:
+- Arduino Nano
+- RCWL‑0516 microwave motion sensor
+- IP5328P powerbank module
+- RGB LED (common cathode)
+- Buzzer
+- 3× switches (mode, buzzer, power)
+- 5× 18650 Li‑ion cells
+- Voltage divider (for battery measurement)
+- Custom 3D‑printed enclosure
+
+---
+
+## 🔌 Pinout
+
+| Component        | Arduino Pin |
+|------------------|-------------|
+| Mode Button      | D10         |
+| RCWL‑0516        | D9          |
+| Buzzer           | D2          |
+| LED Red          | D8          |
+| LED Green        | D7          |
+| LED Blue         | D6          |
+| Voltage Sense    | A5          |
+
+---
+
+## ⚙ How It Works
+
+### **Mode 1 — Motion Detection**
+- RCWL‑0516 detects movement  
+- Blue LED lights up  
+- Buzzer emits a short tone  
+- Used to simulate STALKER anomaly scanning
+
+### **Mode 2 — Battery Level**
+Voltage is read from A5 and converted to real battery voltage.  
+LED indicates charge level:
+
+| Voltage | LED State |
+|---------|-----------|
+| < 3.4V  | Red       |
+| 3.4–3.8V | Yellow (Red+Green) |
+| > 3.8V | Green     |
+
+---
+
+## 🔧 Firmware
+Firmware is located in `/firmware/echo_detector.ino`.
+
+---
+
+## 📦 STL Models
+All 3D‑printable parts are available in `/stl` or on MakerWorld.
+
+MakerWorld link:  
+https://makerworld.com/en/models/2606224-echo-powerbank-anomaly-detector-stalker
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+STL models may be used for personal and educational purposes.  
+Commercial use requires permission from the author.
+
+---
+
+## 🧩 Future Updates
+- Wiring diagram  
+- Full assembly guide  
+- Printable labels  
+- PCB version  

@@ -1,0 +1,41 @@
+# Bill of Materials (BOM)
+
+## Electronics
+- Arduino Nano (ATmega328P)
+- RCWL‑0516 microwave motion sensor
+- IP5328P powerbank module
+- RGB LED (common cathode)
+- Buzzer (active)
+- 3× toggle switches:
+  - Power ON/OFF
+  - Buzzer ON/OFF
+  - Mode switch
+- Voltage divider resistors:
+  - R1: 100k
+  - R2: 100k
+- Wires (silicone recommended)
+- 5× 18650 Li‑ion cells
+- 18650 battery holder or custom printed cage
+
+## 3D‑Printed Parts
+- Main body
+- Handle
+- Front tube
+- Button caps
+- Internal mounts
+- Battery cage
+
+Material recommended: **Tough Resin Ultra**  
+Layer height: 0.05–0.1 mm  
+Infill: solid  
+Supports: yes
+
+## Fasteners
+- M3 screws (various lengths)
+- M3 heat‑set inserts (optional)
+
+## Tools
+- Soldering iron
+- Flush cutters
+- Screwdriver set
+- UV resin (optional for reinforcement)
